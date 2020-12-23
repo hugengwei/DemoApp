@@ -245,6 +245,7 @@
 			buildConfigurationList = EEF63EB12588A6C60054A891 /* Build configuration list for PBXNativeTarget "YJFShow" */;
 			buildPhases = (
 				04C66298DF6790F2311F7C86 /* [CP] Check Pods Manifest.lock */,
+				EEE5F225259330A500DB73F5 /* BuildNumber */,
 				EEF63E942588A6C40054A891 /* Sources */,
 				EEF63E952588A6C40054A891 /* Frameworks */,
 				EEF63E962588A6C40054A891 /* Resources */,
@@ -362,6 +363,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YJFShow/Pods-YJFShow-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		EEE5F225259330A500DB73F5 /* BuildNumber */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = BuildNumber;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nDATE=$(date '+%y%m%d%H%M')\n\nBuildTimes=$(/usr/libexec/PlistBuddy -c \"Print BuildTimes\" \"$INFOPLIST_FILE\")\nshortVersion=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$INFOPLIST_FILE\")\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\n\n\nif [ \"$CONFIGURATION\" == \"Release\" ]; then\n\nBuildTimes=\"$DATE\"\n/usr/libexec/PlistBuddy -c \"Set :BuildTimes $BuildTimes\" \"$INFOPLIST_FILE\"\n\n\nbuildNumber=\"$BuildTimes.$shortVersion\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
