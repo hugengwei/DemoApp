@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildTimes</key>
-	<string>2012231837</string>
+	<string>2012240942</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -44,7 +44,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2012231837.1.0</string>
+	<string>2012240942.1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
