@@ -41,13 +41,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  构造方法
- * @param placementId  广告位ID
+ * @param placementId 活动ID
  * @param viewController  viewController - 用于页面跳转的视图控制器
  */
 - (instancetype)initWithPlacementId:(NSString *)placementId viewController:(UIViewController *)viewController;
 
 /**
- * 拉取并展示广告
+ * 拉取并展示活动
  */
 - (void)loadAdAndShow;
 

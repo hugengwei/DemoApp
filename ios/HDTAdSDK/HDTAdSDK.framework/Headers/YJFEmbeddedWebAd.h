@@ -45,12 +45,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * 构造方法
- * @param placementId  广告位ID
+ * @param placementId  活动ID
  */
 - (instancetype)initWithPlacementId:(NSString *)placementId;
 
 /**
- * 拉取广告
+ * 拉取活动
  * @return UIViewController
  */
 - (UIViewController *)loadAd;
