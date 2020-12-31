@@ -24,7 +24,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     /// 初始化SDK
-    [HDTSDKManager registerAppId:@"3829"];
+    [HDTSDKManager registerAppId:MediaID];
     /// 开启debug调试
     [HDTSDKManager enableDebuging:YES];
     
