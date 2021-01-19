@@ -1,0 +1,6 @@
+framework module Pods_YJFShow {
+  umbrella header "Pods-YJFShow-umbrella.h"
+
+  export *
+  module * { export * }
+}

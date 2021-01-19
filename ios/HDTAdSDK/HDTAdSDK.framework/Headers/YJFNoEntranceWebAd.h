@@ -37,6 +37,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, copy) NSString *userId;
 
+/**
+ *  是否展示状态栏
+ */
+@property (nonatomic, assign) BOOL isShowStatusBar;
+
 @property (nonatomic, weak) id<YJFNoEntranceWebAdDelegate> delegate;
 
 /**
