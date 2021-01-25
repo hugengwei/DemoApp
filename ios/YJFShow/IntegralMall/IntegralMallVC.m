@@ -7,7 +7,7 @@
 
 #import "IntegralMallVC.h"
 
-#import <HDTAdSDK/YJFEmbeddedWebAd.h>
+#import <YJFAdSDK/YJFEmbeddedWebAd.h>
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/AdSupport.h>
 

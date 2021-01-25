@@ -6,7 +6,7 @@
 //
 
 #import "YJFAd.h"
-#import <HDTAdSDK/YJFNoEntranceWebAd.h>
+#import <YJFAdSDK/YJFNoEntranceWebAd.h>
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/AdSupport.h>
 

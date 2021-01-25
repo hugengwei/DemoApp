@@ -7,7 +7,7 @@
 
 #import "AppDelegate.h"
 
-#import <HDTAdSDK/HDTSDKManager.h>
+#import <YJFAdSDK/HDTSDKManager.h>
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/AdSupport.h>
 

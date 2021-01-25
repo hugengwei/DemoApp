@@ -1,0 +1,6 @@
+framework module HDTAdSDK {
+  umbrella header "HDTAdSDK.h"
+
+  export *
+  module * { export * }
+}

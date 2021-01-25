@@ -15,10 +15,9 @@
 		EE0CF3F22589EA2600CE7355 /* ActivitiesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0CF3F12589EA2600CE7355 /* ActivitiesModel.m */; };
 		EE0CF3F72589EF8700CE7355 /* Activities.json in Resources */ = {isa = PBXBuildFile; fileRef = EE0CF3F62589EF8700CE7355 /* Activities.json */; };
 		EE0CF426258A032400CE7355 /* HDTResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE0CF424258A032400CE7355 /* HDTResources.bundle */; };
-		EE0CF452258A07EB00CE7355 /* HDTAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0CF44F258A07E200CE7355 /* HDTAdSDK.framework */; };
-		EE0CF455258A07F100CE7355 /* Pods_YJFShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4B4CFA62293985614F504D /* Pods_YJFShow.framework */; };
 		EE5F43372589A49800D03F64 /* ActivitiesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5F43362589A49800D03F64 /* ActivitiesVC.m */; };
 		EE5F433C2589A4A700D03F64 /* IntegralMallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5F433B2589A4A700D03F64 /* IntegralMallVC.m */; };
+		EE72E01C25BE632400D574E8 /* YJFAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE72E01B25BE632400D574E8 /* YJFAdSDK.framework */; };
 		EEF63E9D2588A6C40054A891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF63E9C2588A6C40054A891 /* AppDelegate.m */; };
 		EEF63EA32588A6C40054A891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF63EA22588A6C40054A891 /* ViewController.m */; };
 		EEF63EA62588A6C40054A891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF63EA42588A6C40054A891 /* Main.storyboard */; };
@@ -46,11 +45,11 @@
 		EE0CF3F12589EA2600CE7355 /* ActivitiesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivitiesModel.m; sourceTree = "<group>"; };
 		EE0CF3F62589EF8700CE7355 /* Activities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Activities.json; sourceTree = "<group>"; };
 		EE0CF424258A032400CE7355 /* HDTResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HDTResources.bundle; sourceTree = "<group>"; };
-		EE0CF44F258A07E200CE7355 /* HDTAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HDTAdSDK.framework; sourceTree = "<group>"; };
 		EE5F43352589A49800D03F64 /* ActivitiesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivitiesVC.h; sourceTree = "<group>"; };
 		EE5F43362589A49800D03F64 /* ActivitiesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivitiesVC.m; sourceTree = "<group>"; };
 		EE5F433A2589A4A700D03F64 /* IntegralMallVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegralMallVC.h; sourceTree = "<group>"; };
 		EE5F433B2589A4A700D03F64 /* IntegralMallVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegralMallVC.m; sourceTree = "<group>"; };
+		EE72E01B25BE632400D574E8 /* YJFAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YJFAdSDK.framework; sourceTree = "<group>"; };
 		EEE944E42591E609001BFF20 /* ActivitiesDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivitiesDefine.h; sourceTree = "<group>"; };
 		EEF63E982588A6C40054A891 /* YJFShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJFShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF63E9B2588A6C40054A891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,8 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0CF452258A07EB00CE7355 /* HDTAdSDK.framework in Frameworks */,
-				EE0CF455258A07F100CE7355 /* Pods_YJFShow.framework in Frameworks */,
+				EE72E01C25BE632400D574E8 /* YJFAdSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +167,7 @@
 		EE0CF423258A032400CE7355 /* HDTAdSDK */ = {
 			isa = PBXGroup;
 			children = (
-				EE0CF44F258A07E200CE7355 /* HDTAdSDK.framework */,
+				EE72E01B25BE632400D574E8 /* YJFAdSDK.framework */,
 				EE0CF424258A032400CE7355 /* HDTResources.bundle */,
 			);
 			path = HDTAdSDK;
